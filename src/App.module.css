@@ -1,14 +1,5 @@
-.calculator {
-  border: 3px solid rgba(90, 90, 90);
+.calculator{
+  border: 3px solid rgba(90,90,90);
+  width: 200px;
   border-radius: 5px;
-  width: 100%;       /* Full width by default (mobile-first) */
-  max-width: 200px;  /* Restrict size for larger screens */
-  margin: auto;      /* Center it horizontally */
-}
-
-/* Optional: make it slightly bigger on larger screens */
-@media (min-width: 768px) {
-  .calculator {
-    max-width: 250px;
-  }
 }
